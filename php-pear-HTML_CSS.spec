@@ -7,8 +7,8 @@
 
 Summary:	%{_pearname} - class for generating CSS declarations
 Name:		php-pear-%{_pearname}
-Version:	1.1.3
-Release:	%mkrel 3
+Version:	1.5.3
+Release:	%mkrel 1
 License:	PHP License
 Group:		Development/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -87,7 +87,7 @@ rm -rf %{buildroot}
 
 %files
 %defattr(644,root,root,755)
-%doc %{_pearname}-%{version}/{examples,tests,docs/*}
+%doc %{_pearname}-%{version}/{examples,tests}
 %{_datadir}/pear/%{_class}/*.php
 %{_datadir}/pear/%{_class}/%{_subclass}/*.php
 %{_datadir}/pear/packages/%{_pearname}.xml
