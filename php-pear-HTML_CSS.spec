@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	1.5.4
-Release:	6
+Release:	7
 Summary:	Class for generating CSS declarations
 License:	PHP License
 Group:		Development/PHP
