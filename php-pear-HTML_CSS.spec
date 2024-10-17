@@ -8,7 +8,7 @@ Release:	7
 Summary:	Class for generating CSS declarations
 License:	PHP License
 Group:		Development/PHP
-URL:		http://pear.php.net/package/HTML_CSS/
+URL:		https://pear.php.net/package/HTML_CSS/
 Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
